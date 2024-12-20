@@ -1,0 +1,15 @@
+Authentification multifacteur , avec confirmation PIN sur email :
+       Inscription : email et mot de passe et quand on valide on envoie un lien à l'email et quand on clique sur le lien dans l'email c'est là qu'elle est inscrit 
+
+       Connexion : email e mot de passe quand on valide on envoie du code PIN à l'email et doit le confirmer après validation le pin envoyer à l'email si c'est vrai direction dans un autre page si c'est faut il faut renvoyer le pin  (valable que 90 secondes)
+
+       Techno : Spring boot 
+
+Gestion du compte utilisateurs : modification des infos users sauf email
+
+Mandefa anle izy mvn spring-boot:run
+
+Miteste anle izy  localhost:8080/(le ao anitin'ny controller reo) exemple:http://localhost:8080/register
+
+
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier les informations</title>
+</head>
+<body>
+    <h1>Modifier vos informations</h1>
+    <form action="/editUser" method="POST">
+        <input type="hidden" name="email" value="${user.email}" />
+    
+        <input type="text" name="nom" value="${user.nom}" required />
+        <input type="text" name="prenom" value="${user.prenom}" required />
+        <input type="password" name="password" required />
+    
+        <button type="submit">Mettre à jour</button>
+    </form>
+    <p>${message}</p>
+</body>
+</html>
