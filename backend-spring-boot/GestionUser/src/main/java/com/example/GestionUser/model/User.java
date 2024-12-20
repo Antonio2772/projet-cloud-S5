@@ -1,5 +1,4 @@
 package com.example.GestionUser.model;
-
 import jakarta.persistence.*;
 import lombok.*;
 
